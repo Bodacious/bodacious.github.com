@@ -201,9 +201,14 @@ article#post h2.category_header {
   margin: 1em 0 2em;  
 }
 
+#share_text{
+  font-size: 0.8em;
+}
+
 #share_bar div{
   float: left;
 }
+
 
 #related {
   margin-top: 2em;

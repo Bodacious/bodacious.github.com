@@ -24,6 +24,9 @@
     {{ content }}
   </div>
   
+  {% include custom/sharing %}
+  {% include JB/comments %}
+  
 </article>
 
 {% if site.related_posts.any %}
@@ -39,6 +42,3 @@
 
 {% endif %}
 
-{% include custom/sharing %}
-
-{% include JB/comments %}

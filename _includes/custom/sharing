@@ -1,5 +1,5 @@
 <div id="share_bar">
-
+  <div id="share_text">Share this post online: &nbsp;</div>
   <div id="google-plus" class="social_button">
     <!-- GOOGLE +1 -->
     <g:plusone size="medium"></g:plusone>
