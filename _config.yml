@@ -30,6 +30,9 @@ author :
 #
 production_url : thinkersplayground.com
 
+# How many posts per page
+paginate: 5
+  
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
