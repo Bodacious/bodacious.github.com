@@ -47,7 +47,7 @@
       
     {{ content }}
   
-    <div class="footer">
+    <footer class="footer">
       <div id="contact">
         <a href='mailto:{{ site.author.email }}'>Email</a>&nbsp;&minus;&nbsp;
         <a href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>&nbsp;&minus;&nbsp;
@@ -59,7 +59,10 @@
         rss <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" id="rss_image" />
       </a>
       
-    </div>
+      <p class='clearfix'>
+        <a href="http://katanacode.com/" title="Katana Code">iPhone and Web App developers from Edinburgh, Scotland</a>
+      </p>
+    </footer>
   </div>
   {% include JB/analytics %}
 </body>
