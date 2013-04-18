@@ -9,13 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Thinker's Playground
+tagline: "Simple ideas to increase productivity, health and happiness"
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Gavin Morrice
+  email : gavin@thinkersplayground.com
+  github : bodacious
+  twitter : gavin_morrice
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://bodacious.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,13 +75,14 @@ JB :
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
+  about_path: /about.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -89,9 +90,9 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 351931328240337
       num_posts: 5
-      width: 580
+      width: 704
       colorscheme: light
    
   # Settings for analytics helper
@@ -113,7 +114,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : tweet
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
