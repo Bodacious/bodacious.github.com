@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Hello World!
+title: Simple ideas to increase productivity, health and happiness
 tagline: Supporting tagline
 ---
+
 {% include JB/setup %}
 
 
@@ -15,12 +16,13 @@ tagline: Supporting tagline
 
     <p class="meta">
       <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">{{ post.date | date_to_long_string }}</time>
-      {% if post.location %}{{ post.location }}{% endif %}
+      {% if post.location %} - {{ post.location }}{% endif %}
     </p>
   
     {{ post.content }}
-  
+
   </article>
+
 
 {% endfor %}
 

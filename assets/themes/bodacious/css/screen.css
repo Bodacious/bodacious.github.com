@@ -14,6 +14,7 @@ a, a:hover, a:active, a:visited{
 .clearfix{
   clear:both;
 }
+
 /*****************************************************************************/
 /*
 /* Home
@@ -103,20 +104,18 @@ ul.posts span {
 
 .site .meta {
   color: #aaa;
+  margin: 0;
+  font-size: 0.8em;
 }
 
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  padding: 1em 0 0 ;
   overflow: hidden;
 }
 
 .site .footer .contact {
   float: left;
-  margin-right: 3em;
 }
 
 .site .footer .contact a {
@@ -140,12 +139,14 @@ ul.posts span {
 /*****************************************************************************/
 
 #post {
-
+  border-bottom: 4px solid #EEEEEE;
+  margin: 0 0 2em;
 }
 
 /* standard */
 article#post h1{
   font-size: 1.4em;
+  margin: 0 0 0;
 }
 
 #post pre {
