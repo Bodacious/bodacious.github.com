@@ -4,7 +4,7 @@
   </header>
 
   <p class="meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}" pudate>{{ page.date | date_to_long_string }}</time>
+    <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">{{ page.date | date_to_long_string }}</time>
     {% if page.location %}{{ page.location }}{% endif %}
   </p>
   
