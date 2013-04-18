@@ -2,7 +2,7 @@
 layout: post
 title: "My Second Blog Post"
 description: ""
-category: 
+category: frugality
 tags: []
 ---
 {% include JB/setup %}

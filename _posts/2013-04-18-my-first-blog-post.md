@@ -2,8 +2,8 @@
 layout: post
 title: "My First Blog Post"
 description: "This is my first blog post - just testing out Jekyll"
-category: Intro
-tags: [blog]
+category: productivity
+tags: 
 location: Seattle, WA
 ---
 {% include JB/setup %}
