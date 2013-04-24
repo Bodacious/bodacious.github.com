@@ -1,0 +1,41 @@
+---
+layout: default
+title: Simple ideas to increase productivity, health and happiness
+tagline: Supporting tagline
+---
+
+{% include JB/setup %}
+
+
+{% for post in site.posts limit:5 %}
+
+  <article id="post">
+    <header>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    </header>
+
+    <p class="meta">
+    
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Written by {{ site.author.name }}, </span>
+      </span>
+    
+      <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate" itemprop="datePublished">
+        {{ post.date | date_to_long_string }}
+      </time>
+    
+      {% if post.location %}
+      - 
+        <span itemprop="contentLocation">
+          {{ post.location }}
+        </span>
+      {% endif %}
+    </p>
+  
+    <div itemprop="articleBody">
+      {{  post.content }}
+    </div>
+
+  </article>
+
+{% endfor %}

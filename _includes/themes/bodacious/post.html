@@ -9,6 +9,11 @@
   </header>
 
   <p class="meta">
+    
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">Written by {{ site.author.name }}, </span>
+    </span>
+    
     <time datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate" itemprop="datePublished">
       {{ page.date | date_to_long_string }}
     </time>
