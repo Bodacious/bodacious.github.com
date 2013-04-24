@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Cultivating Mindsets: Why Repetition Is So Important"
-description: "If something is obvious to you then it means you can understand it. But understanding an idea is not the same as agreeing with it, applying it to yourself and making it a part of how you approach daily situations. For that, it has to become part of your mindset - *how* you think."
+description: "If something is obvious to you then it means you can understand it. But understanding an idea is not the same as agreeing with it, applying it to yourself and making it a part of how you approach daily situations. For that, it has to become part of your mindset - how you think."
+location: "Edinburgh, Scotland"
 category: productivity
 tags: [minset, habit, productivity, learning]
 ---
