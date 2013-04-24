@@ -9,7 +9,7 @@ group: navigation
 
 Thinker's Playground is about discovering small, simple and pragmatic ways to enhance our daily lives. It's about finding ways to increase productivity and achieve goals, while reducing stress; ways to improve physical health and fitness, while saving money and time; and ways to get more out of life, without having to put more in.
 
-Thinker's Playground features my thoughts on: simplicity, health & fitness, motivation and inspiration, frugality, family life, happiness, goals, getting great things done, and living in the moment.
+Thinker's Playground features my thoughts on: motivation and inspiration, thriftiness, simplicity, health & fitness, happiness, goals, getting great things done, and living in the moment.
 
 My name is [Gavin Morrice](http://gavinmorrice.com "Gavin Morrice"), and I'm the creator and writer here. I live in Edinburgh, Scotland, where I run an [iPhone app development company](http://katanacode.com "iPhone app developers in Edinburgh, Scotland"). I'm a musician, olympic weightlifter, and I love eating [#paleo](http://robbwolf.com/what-is-the-paleo-diet).
 
