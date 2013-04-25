@@ -26,6 +26,7 @@ Similarly, if there's something in your life you'd like to change, if you want t
 
 The more you expose yourself to ideas and ways to make positive change, the more food for thought you give your mind to grow in that area, and for your brain to *physically change*. Something will stick. Eventually, you'll find yourself thinking in new ways, coming up with ideas and insights of your own.
 
+99P5PJA25SC3
 
 > "Knowing is not enough, you must apply; willing is not enough, you must do."
 > - Bruce Lee
