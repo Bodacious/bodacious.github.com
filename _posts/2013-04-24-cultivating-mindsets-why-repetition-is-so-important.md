@@ -8,7 +8,7 @@ tags: [minset, habit, productivity, learning]
 ---
 {% include JB/setup %}
 
-Technorati: 99P5PJA25SC3
+Technorati: 99P5PJA25SC3 - 
 
 Mindsets frame our view of the world, and determine how we behave and interact with others. They are our attitudes, our prejudices and our dispositions. Some of us have a positive mindset, some have a sceptical mindset. Some have an independent and resourceful mindset, others constantly seek reassurance and guidance. 
 
