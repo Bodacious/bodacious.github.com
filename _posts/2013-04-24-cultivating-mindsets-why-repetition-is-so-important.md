@@ -8,6 +8,8 @@ tags: [minset, habit, productivity, learning]
 ---
 {% include JB/setup %}
 
+Technorati: 99P5PJA25SC3
+
 Mindsets frame our view of the world, and determine how we behave and interact with others. They are our attitudes, our prejudices and our dispositions. Some of us have a positive mindset, some have a sceptical mindset. Some have an independent and resourceful mindset, others constantly seek reassurance and guidance. 
 
 I regularly share links that I find interesting on [Facebook](http://facebook.com/GavinJMorrice). Generally, it's posts  on improving lifestyle in some way: productivity, thriftiness, autonomy etc. A family member recently commented on a couple of my posts, saying that the ideas presented were obvious, too obvious to even require mentioning.
@@ -25,8 +27,6 @@ Marketers know this only too well. Have you ever noticed when you watch an hour-
 Similarly, if there's something in your life you'd like to change, if you want to become more productive, better with money, less stressed or anxious, funnier, more caring and empathetic, it takes time and effort. Read about the topic, don't just buy one book, buy three! Search online for other people who have more experience and read what they have to say. Discuss the idea with your friends, colleagues and family. [Write about it](http://thinkersplayground.com/about.html "About Thinker's Playground"). 
 
 The more you expose yourself to ideas and ways to make positive change, the more food for thought you give your mind to grow in that area, and for your brain to *physically change*. Something will stick. Eventually, you'll find yourself thinking in new ways, coming up with ideas and insights of your own.
-
-99P5PJA25SC3
 
 > "Knowing is not enough, you must apply; willing is not enough, you must do."
 > - Bruce Lee
