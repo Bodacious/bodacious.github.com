@@ -54,15 +54,14 @@ ul.posts span {
   position: relative;
   min-width: 770px;
 }
-#header_wrapper h1{
-  font-size: 3em;
-  line-height: 0.6em; /*Reduce height between header and tagline*/
+#header_wrapper h1 a{
+  display: block;
+  font-size: 1.3em;
+  line-height: 1em;
+  color: #333333;
 }
 #header_wrapper h1 small{
   font-size: 20px;
-}
-#header_wrapper h1 a{
-  color: #333333;
 }
 .site_nav{
   width: 15em;
@@ -71,7 +70,7 @@ ul.posts span {
   line-height: 1em;
   padding: 0;
   position: absolute;
-  top: 2.4em;
+  top: 2.8em;
   right: 0;  
 }
 .site_nav a {
@@ -86,7 +85,7 @@ ul.posts span {
 article header h1{
   font-size: 1.6em;
 }
-article div.articleBody p{
+ p{
   line-height: 1.5em;
   margin: 1em 0;
 }
@@ -107,7 +106,6 @@ p.meta{
 #share_bar div{
   float: left;
 }
-
 footer{
   border-top: thick solid #EEEEEE;
   padding-top: 1em;
