@@ -8,7 +8,7 @@
     <h1><a href="{{ page.url }}" itemprop="headline">{{ page.title }}</a></h1>
   </header>
 
-  <p class="meta">
+  <p class="meta muted">
     
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
       <span itemprop="name">Written by {{ site.author.name }}, </span>
@@ -26,12 +26,12 @@
     {% endif %}
   </p>
   
-  <div itemprop="articleBody">
+  <div itemprop="articleBody" class="articleBody">
     {{ content }}
   </div>
-  
+    
   {% include custom/sharing %}
-  {% include JB/comments %}
+
   
 </article>
 
@@ -47,4 +47,3 @@
   </div>
 
 {% endif %}
-

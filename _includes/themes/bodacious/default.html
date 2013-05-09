@@ -1,69 +1,117 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
       
-   <meta name="author" content="{{ site.author.name }}" />
-   {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-   {% endif %}
+  <meta name="author" content="{{ site.author.name }}" />
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  {% endif %}
    
-   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
+  <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
 
-   <!-- Normalize (reset) CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/normalize.css" type="text/css" media="all" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="all" />
+  <!-- Normalize (reset) CSS -->
+  <!-- <link rel="stylesheet" href="{{ ASSET_PATH }}/css/normalize.css" type="text/css" media="all" /> -->
    
-   <!-- HTML5 Shiv -->
-   <!--[if lt IE 9]>
-   <script src="dist/html5shiv.js"></script>
-   <![endif]-->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.2.2.2.min.css" type="text/css" media="all" />
+   
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.min.css" type="text/css" media="all" />
+
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="all" />
+   
+  <!-- HTML5 Shiv -->
+  <!--[if lt IE 9]><script src="dist/html5shiv.js"></script><![endif]-->
 </head>
 <body>
 
-  <div class="site">
-    <div class="title">
-      <header class="site_header">
-        <h1>
-          <a href="{{ HOME_PATH }}">{{ site.title }}</a><br>
+  <div class="container">
+  
+    <div class="row">
+    
+      <div class="span8 offset2">
+        
+        <div id="header_wrapper">
+          <header>
+            <h1>
+              <a href="{{ HOME_PATH }}">{{ site.title }}</a><br>
+      
+              <small class='muted tagline'>
+                {{ site.tagline }}
+              </small>
+            </h1>
+          </header>
           
-          <span class='tagline clearfix'>
-            {{ site.tagline }}
-          </span>
-        </h1>
-      </header>
-      
-      <nav class="site_nav">
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.about_path }}">About</a>        
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>        
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-      </nav>
-    </div>
-      
-    {{ content }}
-  
-    <footer class="footer">
-      <div id="contact">
-        <a href='mailto:{{ site.author.email }}'>Email</a>&nbsp;&minus;&nbsp;
-        <a href="http://twitter.com/{{ site.author.twitter }}/">Twitter</a>&nbsp;&minus;&nbsp;
-        <a href="http://facebook.com/{{ site.author.facebook }}/">Facebook</a>&nbsp;&minus;&nbsp;          
-        <a href="http://plus.google.com/{{ site.author.google_plus}}/">Google &plus;</a>
+          <nav class='site_nav'>
+            <ul class="inline">
+              <li>
+                <a class="extra" href="{{ BASE_PATH }}{{ site.JB.about_path }}">
+                  About
+                </a> 
+              </li>
+                  
+              <li>
+                <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">
+                  Categories
+                </a>
+              </li>
+            
+              <li>
+                <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">
+                  Archive
+                </a>
+              </li>
+            </ul>
+          </nav>
+          
+        </div>   
+        
+        <hr>
+           
+        {{ content }}
+        
+        <footer class="footer">
+          
+          <div class="row">
+            <div class="span2 offset3">
+              <ul class="inline">
+                <li>
+                  <a href="http://twitter.com/{{ site.author.twitter }}/">
+                    <i class="icon-twitter"></i>
+                  </a>              
+                </li>
+            
+                <li>
+                  <a href="http://facebook.com/{{ site.author.facebook }}/">
+                    <i class="icon-facebook"></i>
+                  </a>                    
+                </li>
+            
+                <li>
+                  <a href="http://plus.google.com/{{ site.author.google_plus}}/">
+                    <i class="icon-google-plus"></i>
+                  </a>              
+                </li>
+    
+                <li>
+                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" id='rss_link'>
+                    <i class="icon-rss"></i>
+                  </a>              
+                </li>
+                  
+              </ul>
+            </div>
+          </div>
+        </footer>
+        
       </div>
-      
-      <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" id='rss_link'>
-        rss <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" id="rss_image" />
-      </a>
-      
-      <p class='clearfix'>
-        <a href="http://katanacode.com/" title="Katana Code">iPhone and Web App developers from Edinburgh, Scotland</a>
-      </p>
-    </footer>
+    </div>
   </div>
-  
+
   {% include JB/analytics %}
-  
+
 </body>
 </html>

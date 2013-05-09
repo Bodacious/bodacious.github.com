@@ -2,19 +2,26 @@
 /* = Site Wide = */
 /* ============= */
 
+
 html, body{
   font-family: "Helvetica neue", "Helvetica", "Verdana", sans-serif;
+  font-size: 17px;
 }
 
 a, a:hover, a:active, a:visited{
   text-decoration: none;
-  color: #55CCDD;
+/*  color: #55CCDD;*/
+  color: #55BCCD;
 }
 
 .clearfix{
   clear:both;
 }
 
+hr{
+  border: none;
+  border-top: thick solid #EEEEEE;
+}
 /*****************************************************************************/
 /*
 /* Home
@@ -35,65 +42,6 @@ ul.posts span {
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
-}
-
-.title {
-  font-weight: bold;
-  position: relative;
-}
-
-.site .title a {
-  color: #333333;
-  text-decoration: none;
-}
-
-.site .title a:hover {
-  color: black;
-}
-
-.site_header{
-}
-
-.site_header h1{
-  margin: 0 0 0.5em;
-}
-
-.site_header h1 a{
-  font-size: 1.27em;
-}
-
-.site_nav{
-  width: 14em;
-  text-align: right;
-  font-size: 1em;
-  line-height: 1em;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  right: 0;  
-}
-.site .site_nav a {
-  font-weight: 200;
-  color: #aaa;
-  text-decoration: none;
-  margin-left: 0.7em;
-  font-size: 1em;
-  line-height: 1em;
-
-}
-
 .tagline{
   font-size: 0.5em;
   margin: 0;
@@ -101,99 +49,50 @@ ul.posts span {
   color: #AAAAAA;
   font-weight: 200;
 }
-
-.site .title a.extra:hover {
-  color: black;
+#header_wrapper{
+  padding-top: 2em;
+  position: relative;
+  min-width: 770px;
 }
-
-.site .meta {
-  color: #aaa;
-  margin: 0;
-  font-size: 0.8em;
+#header_wrapper h1{
+  font-size: 3em;
+  line-height: 0.6em; /*Reduce height between header and tagline*/
 }
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  overflow: hidden;
+#header_wrapper h1 small{
+  font-size: 20px;
 }
-
-.site .footer .contact {
-  float: left;
+#header_wrapper h1 a{
+  color: #333333;
 }
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-#post {
-  border-bottom: 4px solid #EEEEEE;
-  margin: 0 0 2em;
-}
-
-/* standard */
-article#post h1{
-  font-size: 1.4em;
-  margin: 0 0 0;
-}
-
-article#post h2{
+.site_nav{
+  width: 15em;
+  text-align: right;
   font-size: 1em;
-  margin: 0.5em 0;
+  line-height: 1em;
+  padding: 0;
+  position: absolute;
+  top: 2.4em;
+  right: 0;  
+}
+.site_nav a {
+  font-weight: 200;
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 0.7em;
+  font-size: 1em;
+  line-height: 1em;
 }
 
-article#post h3{
+article header h1{
+  font-size: 1.6em;
+}
+article div.articleBody p{
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+p.meta{
   font-size: 0.8em;
-  margin: 0.5em 0;
-}
-
-article#post h2.category_header {
-  margin: 1em 0 0;
-  text-transform: capitalize;
-}
-#post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-#post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  font-size: 85%;
-  padding: 0 .2em;
-}
-
-#post pre code {
-  border: none;
-}
-
-/* terminal */
-
-#post pre.terminal {
-  border: 1px solid black;
-  background-color: #333;
-  color: white;
-}
-
-#post pre.terminal code {
-  background-color: #333;
 }
 
 #share_bar{
@@ -209,26 +108,12 @@ article#post h2.category_header {
   float: left;
 }
 
-
-#related {
-  margin-top: 2em;
+footer{
+  border-top: thick solid #EEEEEE;
+  padding-top: 1em;
+  padding-bottom: 3em;
 }
 
-#related h2 {
-  margin-bottom: 1em;
-}
-
-#contact{
-  width: 30em;
-  float: left;
-}
-#rss_link{
-  width: 5em;
-  display: inline-block;
-  float: right;
-  text-align: right;
-}
-#rss_image{
-  width: 1em;
-  height: 1em;
+footer a i{
+  font-size: 1.3em;
 }
