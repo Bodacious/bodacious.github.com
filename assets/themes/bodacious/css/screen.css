@@ -8,12 +8,15 @@ html, body{
   font-size: 17px;
 }
 
-a, a:hover, a:active, a:visited{
+a, a:visited{
   text-decoration: none;
-/*  color: #55CCDD;*/
   color: #55BCCD;
 }
 
+a:hover, a:active{
+  color: #55CCDD;
+  text-decoration: none;  
+}
 .clearfix{
   clear:both;
 }
@@ -82,10 +85,15 @@ ul.posts span {
   line-height: 1em;
 }
 
+.site_nav a:hover {
+  color: #888;
+}
+
 article header h1{
   font-size: 1.6em;
 }
- p{
+p{
+  font-size: 1.2em;
   line-height: 1.5em;
   margin: 1em 0;
 }
