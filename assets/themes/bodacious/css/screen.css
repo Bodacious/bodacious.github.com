@@ -64,7 +64,7 @@ ul.posts span {
   font-size: 20px;
 }
 .site_nav{
-  width: 15em;
+  width: 15.8em;
   text-align: right;
   font-size: 1em;
   line-height: 1em;
@@ -112,6 +112,9 @@ footer{
   padding-bottom: 3em;
 }
 
+footer a{
+  padding: 0 0.5em;
+}
 footer a i{
-  font-size: 1.3em;
+  font-size: 1.6em;
 }
