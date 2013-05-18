@@ -10,11 +10,11 @@ html, body{
 
 a, a:visited{
   text-decoration: none;
-  color: #55BCCD;
+  color: #94c2cf;
 }
 
 a:hover, a:active{
-  color: #55CCDD;
+  color: #94c2cf;
   text-decoration: none;  
 }
 .clearfix{
