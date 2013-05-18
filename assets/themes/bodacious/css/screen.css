@@ -96,7 +96,7 @@ article header h1{
   font-size: 1.6em;
 }
 
-p, ul{
+p, ul, ol, dl{
   font-size: 1.2em;
   line-height: 1.5em;
   margin: 1em 0;
