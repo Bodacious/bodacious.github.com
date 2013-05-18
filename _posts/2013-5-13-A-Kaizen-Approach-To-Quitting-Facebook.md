@@ -15,7 +15,7 @@ About a month ago, I decided to take a more subtle, Kaizen approach to decreasin
 
 [Kaizen](http://en.wikipedia.org/wiki/Kaizen) is a philosophy of solving problems, achieving goals and improving performance by making small, incremental, and very easy steps in the direction of your goal. Kaizen works so well because, rather than being an idealistic principle, Kaizen is pragmatic and based on the science of how our brains work.
 
-The premise is simple: our brains are wired to reject big changes, at least for the most part. We prefer habit and routine. Any dramatic changes to what we're used to are perceived as a threat and we resist them. Kaizen encourages us to make changes that are so small, and so easy that they bypass our brain's built-in fear response. These small changes eventually become new beneficial habits that take us a step closer to our goal.
+The premise is simple: our brains are wired to reject big changes, at least for the most part. We prefer habit and routine. Any dramatic changes to what we're used to are perceived as a threat and we resist them. Kaizen encourages us to make changes that are so small, and so easy that they bypass our brain's built-in fear response. These small changes eventually become new, beneficial habits that take us a step closer to our goal.
 
 Applying Kaizen to my Facebook use, I asked myself the simple question: What's the smallest change I could make to prevent Facebook from distracting me so much? The first thing I thought of was to stop my phone from chiming when I received a new notification on Facebook. I changed my notification settings and was already a little less distracted, as I'd have to actively check my phone for notifications, rather than allow it to tell me when I should check it. 
 
