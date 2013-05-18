@@ -38,3 +38,6 @@ Over the course of the next few days, I'd ask myself the same question, and was 
 The result of taking each of these small steps is that the number of notifications I receive daily has dropped from 20 or 30 to 3 or 4. And, more importantly, I decide when I check them - not Facebook. More surprising though, was the shift in mindset I experienced when I set myself the challenge. Thinking of ways to prevent Facebook from bidding for my attention became a game. It was actually rewarding to cut back on my usage, rather than difficult, which I found when I tried to go cold turkey in my previous attempt.
 
 I continue to use Facebook less and less, using it now only as a useful way to contact friends who are further away, or to share links I find interesting with my friends and followers.
+
+> It is better to take many small steps in the right direction than to make a great leap  forward only to stumble backward. 
+> - Old Chinese Proverb  
