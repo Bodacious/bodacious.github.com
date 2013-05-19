@@ -77,7 +77,7 @@ ul.posts span {
   line-height: 1em;
   padding: 0;
   position: absolute;
-  top: 2.5em;
+  top: 2.8em;
   right: 0;  
 }
 .site_nav a {
@@ -133,4 +133,11 @@ footer a{
 }
 footer a i{
   font-size: 1.6em;
+}
+#prev_and_next_links{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.text-right{
+  text-align: right;
 }
