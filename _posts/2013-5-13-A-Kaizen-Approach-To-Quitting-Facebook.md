@@ -3,7 +3,7 @@ layout: post
 title: "A Kaizen Approach To Quitting Facebook"
 description: "I've previously tried going cold turkey to beat my \"Facebook Addiction\", only to fall off the wagon when I get stressed or disrtacted. This time I've tried a softer, Kaizen approach and it seems to be working..."
 location: "Edinburgh, Scotland"
-category: Kaizen
+category: habit
 tags: [kaizen, mindset, habit, learning]
 published: true
 ---
@@ -13,7 +13,7 @@ Like most people who work in software, I spend a lot of time browsing social net
 
 About a month ago, I decided to take a more subtle, Kaizen approach to decreasing my Facebook use.
 
-[Kaizen](http://en.wikipedia.org/wiki/Kaizen) is a philosophy of solving problems, achieving goals and improving performance by making small, incremental, and very easy steps in the direction of your goal. Kaizen works so well because, rather than being an idealistic principle, Kaizen is pragmatic and based on the science of how our brains work.
+[Kaizen](/what-is-kaizen) is a philosophy of solving problems, achieving goals and improving performance by making small, incremental, and very easy steps in the direction of your goal. Kaizen works so well because, rather than being an idealistic principle, Kaizen is pragmatic and based on the science of how our brains work.
 
 The premise is simple: our brains are wired to reject big changes, at least for the most part. We prefer habit and routine. Any dramatic changes to what we're used to are perceived as a threat and we resist them. Kaizen encourages us to make changes that are so small, and so easy that they bypass our brain's built-in fear response. These small changes eventually become new, beneficial habits that take us a step closer to our goal.
 
@@ -38,6 +38,3 @@ Over the course of the next few days, I'd ask myself the same question, and was 
 The result of taking each of these small steps is that the number of notifications I receive daily has dropped from 20 or 30 to 3 or 4. And, more importantly, I decide when I check them - not Facebook. More surprising though, was the shift in mindset I experienced when I set myself the challenge. Thinking of ways to prevent Facebook from bidding for my attention became a game. It was actually rewarding to cut back on my usage, rather than difficult, which I found when I tried to go cold turkey in my previous attempt.
 
 I continue to use Facebook less and less, using it now only as a useful way to contact friends who are further away, or to share links I find interesting with my friends and followers.
-
-> It is better to take many small steps in the right direction than to make a great leap  forward only to stumble backward. 
-> - Old Chinese Proverb  
