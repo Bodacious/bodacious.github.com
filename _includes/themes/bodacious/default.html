@@ -3,16 +3,44 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>{{ page.title }}</title>
-  
       
   <meta name="author" content="{{ site.author.name }}" />
+  
   {% if page.description %}
-  <meta name="description" content="{{ page.description }}" />
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+    
+  <!-- Facebook Open Graph Tags -->
+  <meta property="og:site_name" content="Thinker's Playground">  
+  
+  {% if page.image_url %}
+    <meta property="og:image" content="{{ page.image_url }}">
+  {% else %}
+    <meta property="og:image" content="{{ ASSET_PATH }}/img/paperplane.png">
   {% endif %}
   
-  <meta property="og:image" content="{{ ASSET_PATH }}/img/paperplane.png" />
+  <meta property="og:url" content="http://{{site.production_url}}{{ page.url }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">	
+  <meta name="title" content="{{ page.title }}">
   
-   
+  <!-- Twitter Cards Meta Tags -->
+  <meta name="twitter:creator" value="@{{ site.author.twitter }}">
+  <meta name="twitter:site" value="@{{ site.twitter }}">
+  <meta name="twitter:url" value="http://{{site.production_url}}{{ page.url }}">
+  <meta name="twitter:title" value="{{ page.title }}">
+  <meta name="twitter:description" value="{{ page.description }}"> 
+  <meta name="twitter:card" value="summary">  
+  {% if page.image_url %}
+    <meta name="twitter:image" value="{{ page.image_url }}">
+  {% endif %}
+ 				
+  <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/img/paperplane.png">
+
+  <link rel="shortcut icon" href="/favicon.ico?v=1368927360" type="image/x-icon" />
+  
+  <link rel="canonical" href="http://{{site.production_url}}{{ page.url }}">
+  
   <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
   
   <!-- Bootstrap CSS -->
