@@ -14,8 +14,12 @@
   <meta property="og:site_name" content="Thinker's Playground">  
   <meta name="fb:admins" content="100001253850660">
   <meta name="fb:app_id" content="351931328240337">
-  <meta name="og:type" content="Article">
+  <meta name="og:type" content="article">
   
+  <meta name="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta name="article:tag" content="{{ page.tags }}">
+  <meta name="article:section" content="{{ page.category }}">
+    
   {% if page.image_url %}
     <meta property="og:image" content="http://{{site.production_url}}{{ page.image_url }}">
   {% else %}
