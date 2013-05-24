@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Here's What The Greats Had To Say About Worry"
+title: "Here's What The Greats Had To Say About Worrying"
 description: "Here are some quotes about worrying from some of history's great thinkers. The message I read in each of these is the same: \"Please don't make the mistake I've made so often - don't waste your time worrying.\""
 category: well-being
 tags: [worry, anxiety, well-being, happiness, quotes]
