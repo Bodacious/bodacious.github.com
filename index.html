@@ -40,7 +40,7 @@ tagline: Supporting tagline
     </p>
   
     <div itemprop="articleBody" class="articleBody">
-      <p>{{  post.description }}</p>
+      {{ post.description | markdownify  }}
     </div>
 
   </article>
