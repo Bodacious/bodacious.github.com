@@ -33,14 +33,21 @@
   <meta name="title" content="{{ page.title }}">
   
   <!-- Twitter Cards Meta Tags -->
+
+  <meta name="twitter:card" content="summary">  
   <meta name="twitter:creator" value="@{{ site.author.twitter }}">
   <meta name="twitter:site" value="@{{ site.twitter }}">
   <meta name="twitter:url" value="http://{{site.production_url}}{{ page.url }}">
   <meta name="twitter:title" value="{{ page.title }}">
   <meta name="twitter:description" value="{{ page.description }}"> 
   <meta name="twitter:card" value="summary">  
+  <meta name="twitter:domain" content="thinkersplayground.com">
+  
   {% if page.image_url %}
-    <meta name="twitter:image" value="http://{{site.production_url}}{{ page.image_url }}">
+    <meta name="twitter:image:src" value="http://{{site.production_url}}{{ page.image_url }}">
+  
+  {% else %}
+    <meta property="twitter:image:src" content="http://{{site.production_url}}{{ ASSET_PATH }}/img/paperplane.png">
   {% endif %}
  				
   <link rel="apple-touch-icon" href="http://{{site.production_url}}{{ ASSET_PATH }}/img/paperplane.png">
