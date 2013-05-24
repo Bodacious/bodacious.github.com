@@ -14,9 +14,9 @@
   <meta property="og:site_name" content="Thinker's Playground">  
   
   {% if page.image_url %}
-    <meta property="og:image" content="{{ page.image_url }}">
+    <meta property="og:image" content="http://{{site.production_url}}{{ page.image_url }}">
   {% else %}
-    <meta property="og:image" content="{{ ASSET_PATH }}/img/paperplane.png">
+    <meta property="og:image" content="http://{{site.production_url}}{{ ASSET_PATH }}/img/paperplane.png">
   {% endif %}
   
   <meta property="og:url" content="http://{{site.production_url}}{{ page.url }}">
@@ -32,12 +32,12 @@
   <meta name="twitter:description" value="{{ page.description }}"> 
   <meta name="twitter:card" value="summary">  
   {% if page.image_url %}
-    <meta name="twitter:image" value="{{ page.image_url }}">
+    <meta name="twitter:image" value="http://{{site.production_url}}{{ page.image_url }}">
   {% endif %}
  				
-  <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/img/paperplane.png">
+  <link rel="apple-touch-icon" href="http://{{site.production_url}}{{ ASSET_PATH }}/img/paperplane.png">
 
-  <link rel="shortcut icon" href="/favicon.ico?v=1368927360" type="image/x-icon" />
+  <link rel="shortcut icon" href="http://{{site.production_url}}/favicon.ico?v=1368927360" type="image/x-icon" />
   
   <link rel="canonical" href="http://{{site.production_url}}{{ page.url }}">
   
