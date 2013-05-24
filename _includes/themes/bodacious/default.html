@@ -12,6 +12,9 @@
     
   <!-- Facebook Open Graph Tags -->
   <meta property="og:site_name" content="Thinker's Playground">  
+  <meta name="fb:admins" content="100001253850660">
+  <!-- <meta name="fb:app_id" content="351931328240337"> -->
+  <meta name="og:type" content="Article">
   
   {% if page.image_url %}
     <meta property="og:image" content="http://{{site.production_url}}{{ page.image_url }}">
@@ -19,6 +22,7 @@
     <meta property="og:image" content="http://{{site.production_url}}{{ ASSET_PATH }}/img/paperplane.png">
   {% endif %}
   
+
   <meta property="og:url" content="http://{{site.production_url}}{{ page.url }}">
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:title" content="{{ page.title }}">	
