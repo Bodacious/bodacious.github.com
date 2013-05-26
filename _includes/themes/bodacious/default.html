@@ -65,7 +65,7 @@
   <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.min.css" type="text/css" media="all" />
 
   <!-- Homepage CSS -->
-  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/tp.css" type="text/css" media="all" />
    
   <!-- HTML5 Shiv -->
   <!--[if lt IE 9]><script src="dist/html5shiv.js"></script><![endif]-->
@@ -111,8 +111,12 @@
           </nav>
           
         </div>   
-                   
+        
+        <hr>
+                
         {{ content }}
+        
+        <hr>
         
         <footer class="footer">
           
@@ -137,7 +141,8 @@
       </div>
     </div>
   </div>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="{{ ASSET_PATH }}/js/tp.js" ></script>
   {% include JB/analytics %}
 </body>
 </html>
