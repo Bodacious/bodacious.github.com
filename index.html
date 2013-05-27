@@ -38,9 +38,13 @@ tagline: Supporting tagline
         </span>
       {% endif %}
     </p>
-  
+
     <div itemprop="articleBody" class="articleBody">
-      {{ post.description | markdownify  }}
+      {% if post.id == site.posts.first.id %}
+        {{ post.content }}
+      {% else %}
+        {{ post.description | markdownify  }}
+      {% endif %}
     </div>
 
   </article>
