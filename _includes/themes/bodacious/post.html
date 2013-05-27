@@ -57,7 +57,7 @@
   <div class="span4">
     <small>
       {% if page.previous.url %} 
-      Previous post<br>
+        <div class='prev_next_post'>Previous post</div>
         <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" rel="prev">
           &laquo; {{page.previous.title}}
         </a> 
@@ -68,7 +68,7 @@
   <div class="span4 text-right">
     <small>
       {% if page.next.url %} 
-        Next post<br>
+        <div class='prev_next_post'>Next post</div>
         <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}" rel="next">
           {{page.next.title | truncate: 40 }} &raquo;
         </a> 

@@ -16,11 +16,10 @@ tagline: "Simple ideas to increase productivity, health and happiness"
 twitter: ThinkersPGround
 author :
   name : Gavin Morrice
-  email : gavin@gavinmorrice.com
-  github : bodacious
-  twitter : gavin_morrice
+  email : gavin@thinkersplayground.com
+  twitter : ThinkersPGround
   feedburner : thinkersplayground/WXIN
-  facebook: "GavinJMorrice"
+  facebook: "ThinkersPlayground"
   google_plus: 102087769770436957512
 
 # The production_url is only used when full-domain names are needed
