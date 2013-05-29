@@ -23,8 +23,7 @@ title : Atom Feed
    <id>{{ site.production_url }}{{ post.id }}</id>
    <content type="html">
      {{ post.content | xml_escape }}
-     This post first appeared on <a href='http://ThinkersPlayground.com'>Thinker's Playground</a>
-     
+     {{ "<hr>This post first appeared on <a href='http://ThinkersPlayground.com'>Thinker's Playground</a>" | xml_escape }}
    </content>
  </entry>
  {% endfor %}
