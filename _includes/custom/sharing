@@ -19,7 +19,7 @@
     <a href="https://twitter.com/share" class="twitter-share-button"
     data-lang="en"
     data-url="{{ post.url }}"
-    data-via="gavin_morrice"
+    data-via="{{site.author.twitter}}"
     data-text="{{ post.title }}"
     data-count="horizontal">Tweet</a>
 
