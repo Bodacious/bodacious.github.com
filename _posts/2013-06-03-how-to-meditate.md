@@ -16,7 +16,7 @@ Each year there are numerous scientific studies and controlled experiments, each
 
 I was recently telling a close friend about mindfulness meditation. He was eager to give it a try but wanted to know more about *how* to meditate and where to begin.  Well, there are a few  different types of meditation and a lot of variations on how to approach each.  
 
-The form of meditation I practice is called Mindfulness Meditation, and involves being aware of your current  physical and mental state, and focussing on something simple, and contant, like the breath.
+The form of meditation I practice is called Mindfulness Meditation, and involves being aware of your current  physical and mental state, and focussing on something simple and constant, like the breath.
 
 ## How I Meditate
 
