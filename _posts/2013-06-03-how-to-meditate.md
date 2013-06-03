@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "How To Meditate"
-description: "Meditation has gained a much larger, mainstream following in recent years, and with good reason. What was previously considered an esoteric, eastern, mystical practice, or something for "hippies", is proving to be a very powerful tool for improving physical health, emotional health, mood, mental performance and even sporting performance!"
+description: "Meditation has gained a much larger, mainstream following in recent years, and with good reason. What was previously considered an esoteric, eastern, mystical practice, or something for \"hippies\", is proving to be a very powerful tool for improving physical health, emotional health, mood, mental performance and even sporting performance!"
 location: "Edinburgh, Scotland"
-category: meditation
 tags: [meditation, relaxation, stress, mindfulness, concentration]
+category: meditation
 ---
 
 Meditation has gained a much larger, mainstream following in recent years, and with good reason. What was previously considered an esoteric, *eastern*, mystical practice, or something for "hippies", is proving to be a very powerful tool for improving physical health, emotional health, mood, mental performance and even sporting performance!
