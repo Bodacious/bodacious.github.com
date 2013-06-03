@@ -12,7 +12,7 @@ Meditation has gained a much larger, mainstream following in recent years, and w
 Take [this study](http://www.ncbi.nlm.nih.gov/pubmed/16979106 "The experience of transcendental meditation in middle school students: a qualitative report.
 ") in which a group of school students who tried transcendental meditation for a year, exhibited improved  restful alertness, emotional intelligence (self-control,  awareness, and flexibility in emotional response), and improvement in academic performance.
 
-Each year there are numerous scientific studies and controlled experiments, each showing that meditation improves the lives of all regular practitioners in at least some way. 
+Each year there are numerous scientific studies and controlled experiments, each showing that regular meditation improves the lives of all practitioners in at least some way. 
 
 I was recently telling a close friend about mindfulness meditation. He was eager to give it a try but wanted to know more about *how* to meditate and where to begin.  Well, there are a few  different types of meditation and a lot of variations on how to approach each.  Type of meditation I practice is called Mindfulness Meditation, and involves being aware of your current  physical and mental state, and focussing on something simple, and contant, like the breath.
 
