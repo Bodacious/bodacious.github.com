@@ -14,7 +14,9 @@ Take [this study](http://www.ncbi.nlm.nih.gov/pubmed/16979106 "The experience of
 
 Each year there are numerous scientific studies and controlled experiments, each showing that regular meditation improves the lives of all practitioners in at least some way. 
 
-I was recently telling a close friend about mindfulness meditation. He was eager to give it a try but wanted to know more about *how* to meditate and where to begin.  Well, there are a few  different types of meditation and a lot of variations on how to approach each.  Type of meditation I practice is called Mindfulness Meditation, and involves being aware of your current  physical and mental state, and focussing on something simple, and contant, like the breath.
+I was recently telling a close friend about mindfulness meditation. He was eager to give it a try but wanted to know more about *how* to meditate and where to begin.  Well, there are a few  different types of meditation and a lot of variations on how to approach each.  
+
+The form of meditation I practice is called Mindfulness Meditation, and involves being aware of your current  physical and mental state, and focussing on something simple, and contant, like the breath.
 
 ## How I Meditate
 
