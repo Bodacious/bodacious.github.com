@@ -155,14 +155,3 @@ p.meta{
 .prev_next_post{
   font-size: 0.8em;
 }
-#posts_index{
-  article{
-    border-bottom: thin solid $borderColour;
-    margin: 0 0 1em;
-    
-    &:last-child {
-//      border-bottom: none;
-    }
-  }
-  
-}
