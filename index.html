@@ -7,49 +7,52 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 
-{% for post in paginator.posts %}
+<div id="posts_index">
+  {% for post in paginator.posts %}
 
 
-  <article id="post" itemscope itemtype="http://schema.org/Article">
+    <article id="post" itemscope itemtype="http://schema.org/Article">
 
-    {% if post.description %}
-      <meta name="description" content="{{ post.description }}" itemprop="description" />
-    {% endif %}
+      {% if post.description %}
+        <meta name="description" content="{{ post.description }}" itemprop="description" />
+      {% endif %}
 
 
-    <header>
-      <h1><a href="{{ post.url }}" itemprop="headline">{{ post.title }}</a></h1>
-    </header>
+      <header>
+        <h1><a href="{{ post.url }}" itemprop="headline">{{ post.title }}</a></h1>
+      </header>
 
-    <p class="meta muted">
+      <p class="meta muted">
     
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Written by {{ site.author.name }}, </span>
-      </span>
-    
-      <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate" itemprop="datePublished">
-        {{ post.date | date_to_long_string }}
-      </time>
-    
-      {% if post.location %}
-      - 
-        <span itemprop="contentLocation">
-          {{ post.location }}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">Written by {{ site.author.name }}, </span>
         </span>
-      {% endif %}
-    </p>
+    
+        <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate" itemprop="datePublished">
+          {{ post.date | date_to_long_string }}
+        </time>
+    
+        {% if post.location %}
+        - 
+          <span itemprop="contentLocation">
+            {{ post.location }}
+          </span>
+        {% endif %}
+      </p>
 
-    <div itemprop="articleBody" class="articleBody">
-      {% if post.id == site.posts.first.id %}
-        {{ post.content }}
-      {% else %}
-        {{ post.description | markdownify  }}
-      {% endif %}
-    </div>
+      <div itemprop="articleBody" class="articleBody">
+        {% if post.id == site.posts.first.id %}
+          {{ post.content }}
+        {% else %}
+          {{ post.description | markdownify  }}
+        {% endif %}
+      </div>
 
-  </article>
+    </article>
 
-{% endfor %}
+  {% endfor %}  
+</div>
+
 
 <div id="post-pagination" class="pagination">
 
